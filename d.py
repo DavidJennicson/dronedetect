@@ -2,9 +2,6 @@ from ultralytics import YOLO
 from enum import Enum
 
 class ModelType(Enum):
-    YOLOv8n = 'yolov8n.pt'
-    YOLOv8s = 'yolov8s.pt'
-    YOLOv8x = 'yolov8x.pt'
     BEST='best.pt'
 
 class Camera(Enum):
